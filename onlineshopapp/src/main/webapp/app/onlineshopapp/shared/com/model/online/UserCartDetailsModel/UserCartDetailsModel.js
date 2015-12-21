@@ -1,0 +1,32 @@
+Ext.define('Onlineshopapp.onlineshopapp.shared.com.model.online.UserCartDetailsModel.UserCartDetailsModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "productQty",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "cartTotal",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "userId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "productName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "productDesc",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "productUnitPrice",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "productStock",
+          "type": "int",
+          "defaultValue": ""
+     }]
+});

@@ -1,0 +1,2 @@
+
+GRANT ALL PRIVILEGES  ON onshopdb.* TO 'onshopdb'@'%' IDENTIFIED BY 'onshopdb' WITH GRANT OPTION
