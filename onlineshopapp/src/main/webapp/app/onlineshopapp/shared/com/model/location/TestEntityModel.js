@@ -1,0 +1,35 @@
+Ext.define('Onlineshopapp.onlineshopapp.shared.com.model.location.TestEntityModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "testId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "firstName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "lastName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "middleName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

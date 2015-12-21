@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.128s</div>
+<div class="counter">0.115s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.075s</td>
+<td>0.063s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.010s</td>
+<td>0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test3FindById</td>
-<td>0.005s</td>
+<td>0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test3findByproductId</td>
-<td>0.004s</td>
+<td>0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -113,68 +113,68 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.8--ClientSession(1780606896)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Product_M (productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [61FAC862-C02F-4A0E-9CD2-E734B751047C, IZvLdu0Qvu5EQR0cfv7PEzaTEQqEmIUtfZjEA1PNo3K6ZpKHcx, QOJyaHidr7GbfGNsfIzwHhWvc131DMLxgyJuEdRPQGz479E90m, 2147483647, 12.34, 1, AAAAA, 2015-12-21 12:49:02.797, null, 2015-12-21 12:49:02.797, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:40.097--ClientSession(669731905)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Product_M (productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [D652C3B5-C355-4EAA-A19D-D38B366A1853, IZvLdu0Qvu5EQR0cfv7PEzaTEQqEmIUtfZjEA1PNo3K6ZpKHcx, QOJyaHidr7GbfGNsfIzwHhWvc131DMLxgyJuEdRPQGz479E90m, 2147483647, 12.34, 1, AAAAA, 2015-12-21 13:05:40.095, null, 2015-12-21 13:05:40.095, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.805--ClientSession(1418813000)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessDomain_M (userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [88E06B16-2A42-46CE-9849-4E12A27A08AD, kz7RTszXYexPxlbZk7SEjxf0UTVfAlvPelQdSMdAhu8zyTxtd6, VGJ1YMQUMwL9iPF4dQrfDtPVluc1TtewBXZZLaPneZm4xiRq9U, snmyWFCBWWOH7T07JRw64FBYhSL15k8mYlHz6oTwL9ioZBJBoV, 2aAASVUck5RJ6WdhwMIya135BxrQR0f8TKUAg1G3xwwFyGIeKm, 62842, 1, AAAAA, 2015-12-21 12:49:02.803, null, 2015-12-21 12:49:02.803, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:40.102--ClientSession(2019938990)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessDomain_M (userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [716A911D-6561-4D16-AADC-A5659B671C3C, kz7RTszXYexPxlbZk7SEjxf0UTVfAlvPelQdSMdAhu8zyTxtd6, VGJ1YMQUMwL9iPF4dQrfDtPVluc1TtewBXZZLaPneZm4xiRq9U, snmyWFCBWWOH7T07JRw64FBYhSL15k8mYlHz6oTwL9ioZBJBoV, 2aAASVUck5RJ6WdhwMIya135BxrQR0f8TKUAg1G3xwwFyGIeKm, 76336, 1, AAAAA, 2015-12-21 13:05:40.1, null, 2015-12-21 13:05:40.1, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.812--ClientSession(975518563)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [E8282F3D-6E2F-43CB-BFD6-0DEFCE9A8CDA, dtGjP24pAZ6RUE6g27BwJWHl4p2PL1CvGL7C4B2DP0UAAp0ALo, PyICq1cyIdqMGyMGt8ILTpHNm5kBRiDjWPFrSFUk94LAaVFPFi, yrKkrEEeuUCCEHlr3kABTLuFt8nFXsv8GgQGnpJM6zdWp79L8q, TGZZ3qHvG1T37WowrctA1zQw7kUY2GO2FxXsI5embrWTDDI8BF, 50308, 1, AAAAA, 2015-12-21 12:49:02.81, null, 2015-12-21 12:49:02.81, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:40.107--ClientSession(1967602905)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [5B8EBD0D-EE3D-446C-A878-D4899D5855E4, dtGjP24pAZ6RUE6g27BwJWHl4p2PL1CvGL7C4B2DP0UAAp0ALo, PyICq1cyIdqMGyMGt8ILTpHNm5kBRiDjWPFrSFUk94LAaVFPFi, yrKkrEEeuUCCEHlr3kABTLuFt8nFXsv8GgQGnpJM6zdWp79L8q, TGZZ3qHvG1T37WowrctA1zQw7kUY2GO2FxXsI5embrWTDDI8BF, 40753, 1, AAAAA, 2015-12-21 13:05:40.105, null, 2015-12-21 13:05:40.105, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.816--ClientSession(152008263)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_User_T (userId, allowMultipleLogin, changePasswordNextLogin, genTempOneTimePassword, isDeleted, isLocked, lastPasswordChangeDate, multiFactorAuthEnabled, passwordAlgo, passwordExpiryDate, sessionTimeout, userAccessCode, userAccessDomainId, userAccessLevelId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [BF615824-CE15-4D5D-8DC5-2E95194CB0AA, 1, 0, 1, 1, 1, 1970-01-02 15:47:36.789, 1, m6r9yrcCcwduX6ImglmxhCr6hlVwkATA4rl5ip2hwM7AzL9vVA, 1970-01-02 15:47:36.789, 3149, 10, 88E06B16-2A42-46CE-9849-4E12A27A08AD, E8282F3D-6E2F-43CB-BFD6-0DEFCE9A8CDA, 1, AAAAA, 2015-12-21 12:49:02.803, null, 2015-12-21 12:49:02.803, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:40.111--ClientSession(25999307)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_User_T (userId, allowMultipleLogin, changePasswordNextLogin, genTempOneTimePassword, isDeleted, isLocked, lastPasswordChangeDate, multiFactorAuthEnabled, passwordAlgo, passwordExpiryDate, sessionTimeout, userAccessCode, userAccessDomainId, userAccessLevelId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [ED110643-5719-49BB-B2BC-B36BEAAB8F42, 1, 0, 1, 1, 1, 1970-01-02 15:47:36.789, 1, m6r9yrcCcwduX6ImglmxhCr6hlVwkATA4rl5ip2hwM7AzL9vVA, 1970-01-02 15:47:36.789, 3149, 10, 716A911D-6561-4D16-AADC-A5659B671C3C, 5B8EBD0D-EE3D-446C-A878-D4899D5855E4, 1, AAAAA, 2015-12-21 13:05:40.1, null, 2015-12-21 13:05:40.1, 1, null]
 Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.859--ClientSession(607395515)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserCart_M (userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [DF14D637-BBDC-4104-A41C-C56EAA9C6EB1, 12.34, 61FAC862-C02F-4A0E-9CD2-E734B751047C, 2147483647, BF615824-CE15-4D5D-8DC5-2E95194CB0AA, 1, AAAAA, 2015-12-21 12:49:02.819, null, 2015-12-21 12:49:02.819, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:40.142--ClientSession(995339501)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserCart_M (userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [2E14E9CD-7698-4BA0-BEEB-47A941E6BDC7, 12.34, D652C3B5-C355-4EAA-A19D-D38B366A1853, 2147483647, ED110643-5719-49BB-B2BC-B36BEAAB8F42, 1, AAAAA, 2015-12-21 13:05:40.114, null, 2015-12-21 13:05:40.114, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.866--ClientSession(1671356014)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (userCartId = ?))
-	bind =&gt; [1, DF14D637-BBDC-4104-A41C-C56EAA9C6EB1]
+[EL Fine]: sql: 2015-12-21 07:35:40.149--ClientSession(1765249953)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (userCartId = ?))
+	bind =&gt; [1, 2E14E9CD-7698-4BA0-BEEB-47A941E6BDC7]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.868--ClientSession(536742843)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE (userCartId = ?)
-	bind =&gt; [DF14D637-BBDC-4104-A41C-C56EAA9C6EB1]
-[EL Fine]: sql: 2015-12-21 07:19:02.869--ClientSession(536742843)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserCart_M SET updatedBy = ?, versionId = ? WHERE ((userCartId = ?) AND (versionId = ?))
-	bind =&gt; [AAAAA, 2, DF14D637-BBDC-4104-A41C-C56EAA9C6EB1, 1]
+[EL Fine]: sql: 2015-12-21 07:35:40.151--ClientSession(1609863855)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE (userCartId = ?)
+	bind =&gt; [2E14E9CD-7698-4BA0-BEEB-47A941E6BDC7]
+[EL Fine]: sql: 2015-12-21 07:35:40.153--ClientSession(1609863855)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserCart_M SET updatedBy = ?, versionId = ? WHERE ((userCartId = ?) AND (versionId = ?))
+	bind =&gt; [AAAAA, 2, 2E14E9CD-7698-4BA0-BEEB-47A941E6BDC7, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.875--ClientSession(938187038)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (userCartId = ?))
-	bind =&gt; [1, DF14D637-BBDC-4104-A41C-C56EAA9C6EB1]
+[EL Fine]: sql: 2015-12-21 07:35:40.159--ClientSession(1270470141)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (userCartId = ?))
+	bind =&gt; [1, 2E14E9CD-7698-4BA0-BEEB-47A941E6BDC7]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.88--ClientSession(27986898)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (productId = ?))
-	bind =&gt; [1, 61FAC862-C02F-4A0E-9CD2-E734B751047C]
+[EL Fine]: sql: 2015-12-21 07:35:40.163--ClientSession(1065199983)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (productId = ?))
+	bind =&gt; [1, D652C3B5-C355-4EAA-A19D-D38B366A1853]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.885--ClientSession(489661719)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (userId = ?))
-	bind =&gt; [1, BF615824-CE15-4D5D-8DC5-2E95194CB0AA]
+[EL Fine]: sql: 2015-12-21 07:35:40.168--ClientSession(2058344824)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE ((activeStatus = ?) AND (userId = ?))
+	bind =&gt; [1, ED110643-5719-49BB-B2BC-B36BEAAB8F42]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.889--ClientSession(1732613155)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE (userCartId = ?)
-	bind =&gt; [DF14D637-BBDC-4104-A41C-C56EAA9C6EB1]
-[EL Fine]: sql: 2015-12-21 07:19:02.89--ClientSession(1732613155)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserCart_M WHERE ((userCartId = ?) AND (versionId = ?))
-	bind =&gt; [DF14D637-BBDC-4104-A41C-C56EAA9C6EB1, 2]
+[EL Fine]: sql: 2015-12-21 07:35:40.172--ClientSession(201339715)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userCartId, cartTotal, productId, productQty, userId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserCart_M WHERE (userCartId = ?)
+	bind =&gt; [2E14E9CD-7698-4BA0-BEEB-47A941E6BDC7]
+[EL Fine]: sql: 2015-12-21 07:35:40.174--ClientSession(201339715)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserCart_M WHERE ((userCartId = ?) AND (versionId = ?))
+	bind =&gt; [2E14E9CD-7698-4BA0-BEEB-47A941E6BDC7, 2]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.894--ClientSession(1065138339)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userId, allowMultipleLogin, changePasswordNextLogin, genTempOneTimePassword, isDeleted, isLocked, lastPasswordChangeDate, multiFactorAuthEnabled, passwordAlgo, passwordExpiryDate, sessionTimeout, userAccessCode, userAccessDomainId, userAccessLevelId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_User_T WHERE (userId = ?)
-	bind =&gt; [BF615824-CE15-4D5D-8DC5-2E95194CB0AA]
-[EL Fine]: sql: 2015-12-21 07:19:02.894--ClientSession(1065138339)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userDataId, last5Passwords, oneTimePassword, oneTimePasswordExpiry, oneTimePasswordGenDate, password, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, userId FROM ast_UserData_TP WHERE (userId = ?)
-	bind =&gt; [BF615824-CE15-4D5D-8DC5-2E95194CB0AA]
-[EL Fine]: sql: 2015-12-21 07:19:02.895--ClientSession(1065138339)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT passRecoveryId, answer, questionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, userId FROM ast_PassRecovery_TP WHERE (userId = ?)
-	bind =&gt; [BF615824-CE15-4D5D-8DC5-2E95194CB0AA]
-[EL Fine]: sql: 2015-12-21 07:19:02.896--ClientSession(1065138339)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_User_T WHERE ((userId = ?) AND (versionId = ?))
-	bind =&gt; [BF615824-CE15-4D5D-8DC5-2E95194CB0AA, 1]
+[EL Fine]: sql: 2015-12-21 07:35:40.177--ClientSession(1890961544)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userId, allowMultipleLogin, changePasswordNextLogin, genTempOneTimePassword, isDeleted, isLocked, lastPasswordChangeDate, multiFactorAuthEnabled, passwordAlgo, passwordExpiryDate, sessionTimeout, userAccessCode, userAccessDomainId, userAccessLevelId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_User_T WHERE (userId = ?)
+	bind =&gt; [ED110643-5719-49BB-B2BC-B36BEAAB8F42]
+[EL Fine]: sql: 2015-12-21 07:35:40.178--ClientSession(1890961544)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userDataId, last5Passwords, oneTimePassword, oneTimePasswordExpiry, oneTimePasswordGenDate, password, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, userId FROM ast_UserData_TP WHERE (userId = ?)
+	bind =&gt; [ED110643-5719-49BB-B2BC-B36BEAAB8F42]
+[EL Fine]: sql: 2015-12-21 07:35:40.178--ClientSession(1890961544)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT passRecoveryId, answer, questionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, userId FROM ast_PassRecovery_TP WHERE (userId = ?)
+	bind =&gt; [ED110643-5719-49BB-B2BC-B36BEAAB8F42]
+[EL Fine]: sql: 2015-12-21 07:35:40.179--ClientSession(1890961544)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_User_T WHERE ((userId = ?) AND (versionId = ?))
+	bind =&gt; [ED110643-5719-49BB-B2BC-B36BEAAB8F42, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.901--ClientSession(822367478)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
-	bind =&gt; [E8282F3D-6E2F-43CB-BFD6-0DEFCE9A8CDA]
-[EL Fine]: sql: 2015-12-21 07:19:02.902--ClientSession(822367478)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessLevel_M WHERE ((userAccessLevelId = ?) AND (versionId = ?))
-	bind =&gt; [E8282F3D-6E2F-43CB-BFD6-0DEFCE9A8CDA, 1]
+[EL Fine]: sql: 2015-12-21 07:35:40.184--ClientSession(1078782291)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
+	bind =&gt; [5B8EBD0D-EE3D-446C-A878-D4899D5855E4]
+[EL Fine]: sql: 2015-12-21 07:35:40.185--ClientSession(1078782291)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessLevel_M WHERE ((userAccessLevelId = ?) AND (versionId = ?))
+	bind =&gt; [5B8EBD0D-EE3D-446C-A878-D4899D5855E4, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.906--ClientSession(737887663)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE (userAccessDomainId = ?)
-	bind =&gt; [88E06B16-2A42-46CE-9849-4E12A27A08AD]
-[EL Fine]: sql: 2015-12-21 07:19:02.908--ClientSession(737887663)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessDomain_M WHERE ((userAccessDomainId = ?) AND (versionId = ?))
-	bind =&gt; [88E06B16-2A42-46CE-9849-4E12A27A08AD, 1]
+[EL Fine]: sql: 2015-12-21 07:35:40.19--ClientSession(1287459562)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE (userAccessDomainId = ?)
+	bind =&gt; [716A911D-6561-4D16-AADC-A5659B671C3C]
+[EL Fine]: sql: 2015-12-21 07:35:40.191--ClientSession(1287459562)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessDomain_M WHERE ((userAccessDomainId = ?) AND (versionId = ?))
+	bind =&gt; [716A911D-6561-4D16-AADC-A5659B671C3C, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.912--ClientSession(1808366395)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
-	bind =&gt; [61FAC862-C02F-4A0E-9CD2-E734B751047C]
-[EL Fine]: sql: 2015-12-21 07:19:02.913--ClientSession(1808366395)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Product_M WHERE ((productId = ?) AND (versionId = ?))
-	bind =&gt; [61FAC862-C02F-4A0E-9CD2-E734B751047C, 1]
+[EL Fine]: sql: 2015-12-21 07:35:40.196--ClientSession(595070086)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
+	bind =&gt; [D652C3B5-C355-4EAA-A19D-D38B366A1853]
+[EL Fine]: sql: 2015-12-21 07:35:40.197--ClientSession(595070086)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Product_M WHERE ((productId = ?) AND (versionId = ?))
+	bind =&gt; [D652C3B5-C355-4EAA-A19D-D38B366A1853, 1]
 </pre>
 </span>
 </div>
@@ -186,7 +186,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

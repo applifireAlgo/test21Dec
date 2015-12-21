@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.555--ClientSession(1222791493)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Country_M (countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [6D9CD649-1405-43BC-B57B-D35A465F5D69, BdXvV3st33REGhWpbIE8hik6PiXWxWkb, 11, 3, 8zQ, HiS, xqkJD60oROrFLRG7CDSF4FC97UAYxvLGX8kQkxoYufXDlMH9Vk, dyg0sTJdNWW7BxSSYGHDwTKkiR7hVKCu0Ps5bTS8yoEXgtjpJL, zYw, 97yvmjiKEFnrJLYB5fWTBJzu0RMXfgzaCsYGYh36e4kQfiuJsC, ldOivoBugiULxvA9hB4LmMwAbbvynQAs, 2, 1, AAAAA, 2015-12-21 12:49:02.542, null, 2015-12-21 12:49:02.542, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:39.758--ClientSession(1228693390)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Country_M (countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [C7D3C625-2196-4350-935B-8A82C0A9A985, BdXvV3st33REGhWpbIE8hik6PiXWxWkb, 11, 3, 8zQ, HiS, xqkJD60oROrFLRG7CDSF4FC97UAYxvLGX8kQkxoYufXDlMH9Vk, dyg0sTJdNWW7BxSSYGHDwTKkiR7hVKCu0Ps5bTS8yoEXgtjpJL, zYw, 97yvmjiKEFnrJLYB5fWTBJzu0RMXfgzaCsYGYh36e4kQfiuJsC, ldOivoBugiULxvA9hB4LmMwAbbvynQAs, 2, 1, AAAAA, 2015-12-21 13:05:39.746, null, 2015-12-21 13:05:39.746, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.565--ClientSession(641991307)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE ((activeStatus = ?) AND (countryId = ?))
-	bind =&gt; [1, 6D9CD649-1405-43BC-B57B-D35A465F5D69]
+[EL Fine]: sql: 2015-12-21 07:35:39.768--ClientSession(235606386)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE ((activeStatus = ?) AND (countryId = ?))
+	bind =&gt; [1, C7D3C625-2196-4350-935B-8A82C0A9A985]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.568--ClientSession(1951347352)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
-	bind =&gt; [6D9CD649-1405-43BC-B57B-D35A465F5D69]
-[EL Fine]: sql: 2015-12-21 07:19:02.57--ClientSession(1951347352)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_Country_M SET capital = ?, capitalLatitude = ?, capitalLongitude = ?, countryCode1 = ?, countryCode2 = ?, countryFlag = ?, countryName = ?, currencyCode = ?, currencyName = ?, currencySymbol = ?, isoNumeric = ?, updatedBy = ?, versionId = ? WHERE ((countryId = ?) AND (versionId = ?))
-	bind =&gt; [KPwzkJCz4Rm0yQ8Ty6pNU1430UIK1Exd, 1, 7, 27x, 7Km, LmDF9fxf2qpsB2jDhyfqr1qVKROUfswGlHb8AbqmpUjnXED6zp, GVwySYxmandCHEErlh5MegH5FjMVSRUpgkWye5qut2ISWssG0y, EQT, ysPiiU6EEgSpIQRvSrjj7jmoEGZsvWiAQzG5hIkTnuAchpWRYQ, BC9hSxYCoQYqDMcKmye3mwBKNeCwHl06, 4, AAAAA, 2, 6D9CD649-1405-43BC-B57B-D35A465F5D69, 1]
+[EL Fine]: sql: 2015-12-21 07:35:39.77--ClientSession(499273769)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
+	bind =&gt; [C7D3C625-2196-4350-935B-8A82C0A9A985]
+[EL Fine]: sql: 2015-12-21 07:35:39.772--ClientSession(499273769)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_Country_M SET capital = ?, capitalLatitude = ?, capitalLongitude = ?, countryCode1 = ?, countryCode2 = ?, countryFlag = ?, countryName = ?, currencyCode = ?, currencyName = ?, currencySymbol = ?, isoNumeric = ?, updatedBy = ?, versionId = ? WHERE ((countryId = ?) AND (versionId = ?))
+	bind =&gt; [KPwzkJCz4Rm0yQ8Ty6pNU1430UIK1Exd, 1, 7, 27x, 7Km, LmDF9fxf2qpsB2jDhyfqr1qVKROUfswGlHb8AbqmpUjnXED6zp, GVwySYxmandCHEErlh5MegH5FjMVSRUpgkWye5qut2ISWssG0y, EQT, ysPiiU6EEgSpIQRvSrjj7jmoEGZsvWiAQzG5hIkTnuAchpWRYQ, BC9hSxYCoQYqDMcKmye3mwBKNeCwHl06, 4, AAAAA, 2, C7D3C625-2196-4350-935B-8A82C0A9A985, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.578--ClientSession(1328127413)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE ((activeStatus = ?) AND (countryId = ?))
-	bind =&gt; [1, 6D9CD649-1405-43BC-B57B-D35A465F5D69]
+[EL Fine]: sql: 2015-12-21 07:35:39.78--ClientSession(2075489890)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE ((activeStatus = ?) AND (countryId = ?))
+	bind =&gt; [1, C7D3C625-2196-4350-935B-8A82C0A9A985]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.584--ClientSession(912392011)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
-	bind =&gt; [6D9CD649-1405-43BC-B57B-D35A465F5D69]
-[EL Fine]: sql: 2015-12-21 07:19:02.585--ClientSession(912392011)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Country_M WHERE ((countryId = ?) AND (versionId = ?))
-	bind =&gt; [6D9CD649-1405-43BC-B57B-D35A465F5D69, 2]
+[EL Fine]: sql: 2015-12-21 07:35:39.786--ClientSession(1710611302)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
+	bind =&gt; [C7D3C625-2196-4350-935B-8A82C0A9A985]
+[EL Fine]: sql: 2015-12-21 07:35:39.788--ClientSession(1710611302)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Country_M WHERE ((countryId = ?) AND (versionId = ?))
+	bind =&gt; [C7D3C625-2196-4350-935B-8A82C0A9A985, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

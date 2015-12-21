@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.app.server.service.TestEntityTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-12-21T07:35:39" hostname="e39261aec3e6" time="0.071">
+  <properties/>
+  <testcase name="test1Save" classname="com.app.server.service.TestEntityTestCase" time="0.042"/>
+  <testcase name="test2Update" classname="com.app.server.service.TestEntityTestCase" time="0.013"/>
+  <testcase name="test3FindById" classname="com.app.server.service.TestEntityTestCase" time="0.006"/>
+  <testcase name="test4Delete" classname="com.app.server.service.TestEntityTestCase" time="0.009"/>
+  <system-out><![CDATA[Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-12-21 07:35:39.83--ClientSession(955821611)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_TestEntity_M (testId, firstName, lastName, middleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [79B7CB17-7033-406E-BD6C-42DE8C3437FD, eHsHskxlvLwmR1Fuod68Rqgurt79YLntob77Q25MbiOFyZIDfO, FwAbahsLTKGEmM82rDkv3Fh6xdezAnrzp9bgAPIakq4M88yawP, Q2krapFOhW98BiHhYihGrIG2GoYBLsCQu6TEFV67bHAs0ak1s4, 1, AAAAA, 2015-12-21 13:05:39.801, null, 2015-12-21 13:05:39.801, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-12-21 07:35:39.84--ClientSession(1602273895)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT testId, firstName, lastName, middleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_TestEntity_M WHERE ((activeStatus = ?) AND (testId = ?))
+	bind => [1, 79B7CB17-7033-406E-BD6C-42DE8C3437FD]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-12-21 07:35:39.843--ClientSession(463555611)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT testId, firstName, lastName, middleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_TestEntity_M WHERE (testId = ?)
+	bind => [79B7CB17-7033-406E-BD6C-42DE8C3437FD]
+[EL Fine]: sql: 2015-12-21 07:35:39.844--ClientSession(463555611)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_TestEntity_M SET firstName = ?, lastName = ?, middleName = ?, updatedBy = ?, versionId = ? WHERE ((testId = ?) AND (versionId = ?))
+	bind => [lfEalQqMJNXWG4z1YFURuf9zaRMNeFoBi7PmDgIFrcBliD5OqF, JxqFKIpH3mN20j3OftBHgoiSGRpsrq81dGRlOrUoacQEPlTZrY, G9EFpn9KlDxdm0Gd71rr6IZqVHzUlPC16OiG95kOAqg7Gse2mZ, AAAAA, 2, 79B7CB17-7033-406E-BD6C-42DE8C3437FD, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-12-21 07:35:39.852--ClientSession(542557268)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT testId, firstName, lastName, middleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_TestEntity_M WHERE ((activeStatus = ?) AND (testId = ?))
+	bind => [1, 79B7CB17-7033-406E-BD6C-42DE8C3437FD]
+In around repository aspect
+[EL Fine]: sql: 2015-12-21 07:35:39.858--ClientSession(2124719167)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT testId, firstName, lastName, middleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_TestEntity_M WHERE (testId = ?)
+	bind => [79B7CB17-7033-406E-BD6C-42DE8C3437FD]
+[EL Fine]: sql: 2015-12-21 07:35:39.86--ClientSession(2124719167)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_TestEntity_M WHERE ((testId = ?) AND (versionId = ?))
+	bind => [79B7CB17-7033-406E-BD6C-42DE8C3437FD, 2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

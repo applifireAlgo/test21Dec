@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.105s</div>
+<div class="counter">0.120s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,27 +79,27 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.057s</td>
+<td>0.063s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.014s</td>
+<td>0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test3FindById</td>
-<td>0.007s</td>
+<td>0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test3findBycountryId</td>
-<td>0.007s</td>
+<td>0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.020s</td>
+<td>0.026s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -108,37 +108,37 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.555--ClientSession(825521971)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Country_M (countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [A20C9D40-61B2-452E-9058-01FEACC8ADF8, Q6dELsaQLwbTwNih7EqUYL3m77j1pL0M, 10, 4, Wvr, JGx, MZ4OIRAxNwkcTDdCZn0IiIYUS9gaB3LEOxBsAb2HOMfzmD2D5r, yHzWNagpQdQCoIn60AwATdnzRQytEQqNFJAKKKZe3NLp2SflFT, 5kR, PilMBxPVg8fzQb7lXKc1jzVNEOWJVfSPjMB9N0qV5oxPaXs1yT, PdgEohBJL0XOFFRC3mRnwhnHrMGjRwON, 8, 1, AAAAA, 2015-12-21 12:49:00.551, null, 2015-12-21 12:49:00.551, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:37.883--ClientSession(664778051)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Country_M (countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [DB37AFFF-7388-4D11-837B-19576E1B1244, Q6dELsaQLwbTwNih7EqUYL3m77j1pL0M, 10, 4, Wvr, JGx, MZ4OIRAxNwkcTDdCZn0IiIYUS9gaB3LEOxBsAb2HOMfzmD2D5r, yHzWNagpQdQCoIn60AwATdnzRQytEQqNFJAKKKZe3NLp2SflFT, 5kR, PilMBxPVg8fzQb7lXKc1jzVNEOWJVfSPjMB9N0qV5oxPaXs1yT, PdgEohBJL0XOFFRC3mRnwhnHrMGjRwON, 8, 1, AAAAA, 2015-12-21 13:05:37.879, null, 2015-12-21 13:05:37.879, 1, null]
 Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.592--ClientSession(1805503864)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Currency_M (currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [D56C3927-C555-4D95-95B3-3FD0F6820E21, A20C9D40-61B2-452E-9058-01FEACC8ADF8, vhIKvlL5TNknhSl6n2WuEqWSDQMgkUvUIUCO3vZW68dSHY9MYE, XG57YQYaSqUXgiVje3aspKampgAw04866GuheUWC1nsZfSaiA2, z0E3XPowM0YVhhGjOfEDCp8KfbY63Vit1GvwHgxoMZNEE01ftO, 1, AAAAA, 2015-12-21 12:49:00.558, null, 2015-12-21 12:49:00.558, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:37.921--ClientSession(1338868582)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Currency_M (currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [FAF9464C-9F38-4A46-AAF2-809F4309561A, DB37AFFF-7388-4D11-837B-19576E1B1244, vhIKvlL5TNknhSl6n2WuEqWSDQMgkUvUIUCO3vZW68dSHY9MYE, XG57YQYaSqUXgiVje3aspKampgAw04866GuheUWC1nsZfSaiA2, z0E3XPowM0YVhhGjOfEDCp8KfbY63Vit1GvwHgxoMZNEE01ftO, 1, AAAAA, 2015-12-21 13:05:37.887, null, 2015-12-21 13:05:37.887, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.602--ClientSession(2040148568)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE ((activeStatus = ?) AND (currencyId = ?))
-	bind =&gt; [1, D56C3927-C555-4D95-95B3-3FD0F6820E21]
+[EL Fine]: sql: 2015-12-21 07:35:37.93--ClientSession(1409803505)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE ((activeStatus = ?) AND (currencyId = ?))
+	bind =&gt; [1, FAF9464C-9F38-4A46-AAF2-809F4309561A]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.605--ClientSession(384456950)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE (currencyId = ?)
-	bind =&gt; [D56C3927-C555-4D95-95B3-3FD0F6820E21]
-[EL Fine]: sql: 2015-12-21 07:19:00.607--ClientSession(384456950)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_Currency_M SET currencyCode = ?, unicodeDecimal = ?, unicodeHex = ?, updatedBy = ?, versionId = ? WHERE ((currencyId = ?) AND (versionId = ?))
-	bind =&gt; [SyIDbBC1LzFUTYy04870lxHhMdbHVqiSYEOxmFxXepoj1FdDLj, CtDBObMekkKwoxIPhXF13MeU0gF9JgfJ0kCnDGnjHVIvH6ToDD, bVF9xTOzdDGmPrZkWzpvQvB6GZzZZSItxgbLvjyKJwVqnkF7QU, AAAAA, 2, D56C3927-C555-4D95-95B3-3FD0F6820E21, 1]
+[EL Fine]: sql: 2015-12-21 07:35:37.933--ClientSession(1006745635)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE (currencyId = ?)
+	bind =&gt; [FAF9464C-9F38-4A46-AAF2-809F4309561A]
+[EL Fine]: sql: 2015-12-21 07:35:37.935--ClientSession(1006745635)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_Currency_M SET currencyCode = ?, unicodeDecimal = ?, unicodeHex = ?, updatedBy = ?, versionId = ? WHERE ((currencyId = ?) AND (versionId = ?))
+	bind =&gt; [SyIDbBC1LzFUTYy04870lxHhMdbHVqiSYEOxmFxXepoj1FdDLj, CtDBObMekkKwoxIPhXF13MeU0gF9JgfJ0kCnDGnjHVIvH6ToDD, bVF9xTOzdDGmPrZkWzpvQvB6GZzZZSItxgbLvjyKJwVqnkF7QU, AAAAA, 2, FAF9464C-9F38-4A46-AAF2-809F4309561A, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.615--ClientSession(1442018283)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE ((activeStatus = ?) AND (currencyId = ?))
-	bind =&gt; [1, D56C3927-C555-4D95-95B3-3FD0F6820E21]
+[EL Fine]: sql: 2015-12-21 07:35:37.944--ClientSession(1692592696)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE ((activeStatus = ?) AND (currencyId = ?))
+	bind =&gt; [1, FAF9464C-9F38-4A46-AAF2-809F4309561A]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.622--ClientSession(557291358)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE ((activeStatus = ?) AND (countryId = ?))
-	bind =&gt; [1, A20C9D40-61B2-452E-9058-01FEACC8ADF8]
+[EL Fine]: sql: 2015-12-21 07:35:37.954--ClientSession(1748201203)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE ((activeStatus = ?) AND (countryId = ?))
+	bind =&gt; [1, DB37AFFF-7388-4D11-837B-19576E1B1244]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.629--ClientSession(399217654)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE (currencyId = ?)
-	bind =&gt; [D56C3927-C555-4D95-95B3-3FD0F6820E21]
-[EL Fine]: sql: 2015-12-21 07:19:00.631--ClientSession(399217654)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Currency_M WHERE ((currencyId = ?) AND (versionId = ?))
-	bind =&gt; [D56C3927-C555-4D95-95B3-3FD0F6820E21, 2]
+[EL Fine]: sql: 2015-12-21 07:35:37.964--ClientSession(1556815677)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT currencyId, countryId, currencyCode, unicodeDecimal, unicodeHex, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Currency_M WHERE (currencyId = ?)
+	bind =&gt; [FAF9464C-9F38-4A46-AAF2-809F4309561A]
+[EL Fine]: sql: 2015-12-21 07:35:37.966--ClientSession(1556815677)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Currency_M WHERE ((currencyId = ?) AND (versionId = ?))
+	bind =&gt; [FAF9464C-9F38-4A46-AAF2-809F4309561A, 2]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.638--ClientSession(65018476)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
-	bind =&gt; [A20C9D40-61B2-452E-9058-01FEACC8ADF8]
-[EL Fine]: sql: 2015-12-21 07:19:00.64--ClientSession(65018476)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Country_M WHERE ((countryId = ?) AND (versionId = ?))
-	bind =&gt; [A20C9D40-61B2-452E-9058-01FEACC8ADF8, 1]
+[EL Fine]: sql: 2015-12-21 07:35:37.977--ClientSession(1871449665)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
+	bind =&gt; [DB37AFFF-7388-4D11-837B-19576E1B1244]
+[EL Fine]: sql: 2015-12-21 07:35:37.978--ClientSession(1871449665)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Country_M WHERE ((countryId = ?) AND (versionId = ?))
+	bind =&gt; [DB37AFFF-7388-4D11-837B-19576E1B1244, 1]
 </pre>
 </span>
 </div>
@@ -150,7 +150,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

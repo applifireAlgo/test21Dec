@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.055s</div>
+<div class="counter">0.057s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.035s</td>
+<td>0.036s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.009s</td>
+<td>0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.597--ClientSession(1855888830)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_ContactType_M (contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [9CDB936E-A7DB-4E4F-94B8-1EB3C6938474, mUj6067x2GCIiQLFIXyOV8C6rPorT2KsJaVRdsk8nQP0nG99ii, LrAbEHvZenTFRupHGqxr0KAFEOx2A2TXNtffpuFhwougyh2xti, ZUjINiIVAVayZnvo5HvOY3vC8qvSGhPRBQaOOFYyl7GdpIBI55, 1, AAAAA, 2015-12-21 12:49:03.574, null, 2015-12-21 12:49:03.574, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:40.878--ClientSession(413696568)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_ContactType_M (contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [939FB0CD-B0AD-4CD8-905E-24C6685D04C0, mUj6067x2GCIiQLFIXyOV8C6rPorT2KsJaVRdsk8nQP0nG99ii, LrAbEHvZenTFRupHGqxr0KAFEOx2A2TXNtffpuFhwougyh2xti, ZUjINiIVAVayZnvo5HvOY3vC8qvSGhPRBQaOOFYyl7GdpIBI55, 1, AAAAA, 2015-12-21 13:05:40.853, null, 2015-12-21 13:05:40.853, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.604--ClientSession(1719121951)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
-	bind =&gt; [1, 9CDB936E-A7DB-4E4F-94B8-1EB3C6938474]
+[EL Fine]: sql: 2015-12-21 07:35:40.884--ClientSession(462517761)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
+	bind =&gt; [1, 939FB0CD-B0AD-4CD8-905E-24C6685D04C0]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.606--ClientSession(733138347)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
-	bind =&gt; [9CDB936E-A7DB-4E4F-94B8-1EB3C6938474]
-[EL Fine]: sql: 2015-12-21 07:19:03.607--ClientSession(733138347)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_ContactType_M SET contactType = ?, contactTypeDesc = ?, contactTypeIcon = ?, updatedBy = ?, versionId = ? WHERE ((contactTypeId = ?) AND (versionId = ?))
-	bind =&gt; [wLj3PLwHJXfDLenWjMt0XpPEIA1ny4VsiyVp96zz7wckK6gcQz, 6HyybXASbBetVAzdWtGiCNqIaqEV0YSpiy98ZeEz9mjp8OSQOP, HwEKnBKIeJHHvqqHhN97IVBHHHIL7FNR095Dikk4nVDrCtsQxK, AAAAA, 2, 9CDB936E-A7DB-4E4F-94B8-1EB3C6938474, 1]
+[EL Fine]: sql: 2015-12-21 07:35:40.887--ClientSession(1589552222)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
+	bind =&gt; [939FB0CD-B0AD-4CD8-905E-24C6685D04C0]
+[EL Fine]: sql: 2015-12-21 07:35:40.888--ClientSession(1589552222)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_ContactType_M SET contactType = ?, contactTypeDesc = ?, contactTypeIcon = ?, updatedBy = ?, versionId = ? WHERE ((contactTypeId = ?) AND (versionId = ?))
+	bind =&gt; [wLj3PLwHJXfDLenWjMt0XpPEIA1ny4VsiyVp96zz7wckK6gcQz, 6HyybXASbBetVAzdWtGiCNqIaqEV0YSpiy98ZeEz9mjp8OSQOP, HwEKnBKIeJHHvqqHhN97IVBHHHIL7FNR095Dikk4nVDrCtsQxK, AAAAA, 2, 939FB0CD-B0AD-4CD8-905E-24C6685D04C0, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.613--ClientSession(876974228)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
-	bind =&gt; [1, 9CDB936E-A7DB-4E4F-94B8-1EB3C6938474]
+[EL Fine]: sql: 2015-12-21 07:35:40.894--ClientSession(1303563727)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
+	bind =&gt; [1, 939FB0CD-B0AD-4CD8-905E-24C6685D04C0]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.617--ClientSession(1936266952)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
-	bind =&gt; [9CDB936E-A7DB-4E4F-94B8-1EB3C6938474]
-[EL Fine]: sql: 2015-12-21 07:19:03.618--ClientSession(1936266952)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_ContactType_M WHERE ((contactTypeId = ?) AND (versionId = ?))
-	bind =&gt; [9CDB936E-A7DB-4E4F-94B8-1EB3C6938474, 2]
+[EL Fine]: sql: 2015-12-21 07:35:40.898--ClientSession(1258597583)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
+	bind =&gt; [939FB0CD-B0AD-4CD8-905E-24C6685D04C0]
+[EL Fine]: sql: 2015-12-21 07:35:40.899--ClientSession(1258597583)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_ContactType_M WHERE ((contactTypeId = ?) AND (versionId = ?))
+	bind =&gt; [939FB0CD-B0AD-4CD8-905E-24C6685D04C0, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

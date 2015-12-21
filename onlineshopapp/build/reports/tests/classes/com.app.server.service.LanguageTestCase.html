@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.074s</div>
+<div class="counter">0.077s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.047s</td>
+<td>0.052s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -89,12 +89,12 @@
 </tr>
 <tr>
 <td class="success">test3FindById</td>
-<td>0.006s</td>
+<td>0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.008s</td>
+<td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.85--ClientSession(1983416411)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Language_M (languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [2EF668A9-1FDB-4A74-94DA-99556C4F3BC6, cB, T5c, eakB, 1, gYMOqDyNEKPj6hBVPM2xSYOCKtI0JTiWD434If87vt5HkDlpnH, kKSAwiprq6vniAla2jD4pqmqBWaHMA6FJO0fmefcUdD6hyIwLm, n0YgAW4EA1CDuxhLepXvmusk8owc3BElCxAGaEVaIP2fUSsngE, kO1cYrGHkgNplKTGIXTqFaHv1Kih7Ltq, 1, AAAAA, 2015-12-21 12:49:00.817, null, 2015-12-21 12:49:00.817, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:38.228--ClientSession(917936069)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Language_M (languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [15110D55-A811-45C6-81FB-7D2DC72F422A, cB, T5c, eakB, 1, gYMOqDyNEKPj6hBVPM2xSYOCKtI0JTiWD434If87vt5HkDlpnH, kKSAwiprq6vniAla2jD4pqmqBWaHMA6FJO0fmefcUdD6hyIwLm, n0YgAW4EA1CDuxhLepXvmusk8owc3BElCxAGaEVaIP2fUSsngE, kO1cYrGHkgNplKTGIXTqFaHv1Kih7Ltq, 1, AAAAA, 2015-12-21 13:05:38.19, null, 2015-12-21 13:05:38.19, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.859--ClientSession(1808770002)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE ((activeStatus = ?) AND (languageId = ?))
-	bind =&gt; [1, 2EF668A9-1FDB-4A74-94DA-99556C4F3BC6]
+[EL Fine]: sql: 2015-12-21 07:35:38.238--ClientSession(1612657928)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE ((activeStatus = ?) AND (languageId = ?))
+	bind =&gt; [1, 15110D55-A811-45C6-81FB-7D2DC72F422A]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.861--ClientSession(1559951727)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE (languageId = ?)
-	bind =&gt; [2EF668A9-1FDB-4A74-94DA-99556C4F3BC6]
-[EL Fine]: sql: 2015-12-21 07:19:00.863--ClientSession(1559951727)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_Language_M SET alpha2 = ?, alpha3 = ?, alpha4 = ?, alpha4parentid = ?, language = ?, languageDescription = ?, languageIcon = ?, languageType = ?, updatedBy = ?, versionId = ? WHERE ((languageId = ?) AND (versionId = ?))
-	bind =&gt; [jT, jIc, BnYF, 3, bsCmURPS4aOo3mGNvY5G8FlCig5rVGASXH2V3sK6MtaI0NxLeP, kR6wQ2tM5BmY9gCeLyvaycgoYCDs3dMveIfSEzz7Mbapj6Fg1Q, i9FMBgRNTosprLwkUKfQeX9v46Q6oRhjd8tX3eojAb4RoAEiN2, AxuRVFOj8W5BISknXp9YdTWfYIVkdDmM, AAAAA, 2, 2EF668A9-1FDB-4A74-94DA-99556C4F3BC6, 1]
+[EL Fine]: sql: 2015-12-21 07:35:38.241--ClientSession(1285046073)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE (languageId = ?)
+	bind =&gt; [15110D55-A811-45C6-81FB-7D2DC72F422A]
+[EL Fine]: sql: 2015-12-21 07:35:38.242--ClientSession(1285046073)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_Language_M SET alpha2 = ?, alpha3 = ?, alpha4 = ?, alpha4parentid = ?, language = ?, languageDescription = ?, languageIcon = ?, languageType = ?, updatedBy = ?, versionId = ? WHERE ((languageId = ?) AND (versionId = ?))
+	bind =&gt; [jT, jIc, BnYF, 3, bsCmURPS4aOo3mGNvY5G8FlCig5rVGASXH2V3sK6MtaI0NxLeP, kR6wQ2tM5BmY9gCeLyvaycgoYCDs3dMveIfSEzz7Mbapj6Fg1Q, i9FMBgRNTosprLwkUKfQeX9v46Q6oRhjd8tX3eojAb4RoAEiN2, AxuRVFOj8W5BISknXp9YdTWfYIVkdDmM, AAAAA, 2, 15110D55-A811-45C6-81FB-7D2DC72F422A, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.87--ClientSession(1189549498)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE ((activeStatus = ?) AND (languageId = ?))
-	bind =&gt; [1, 2EF668A9-1FDB-4A74-94DA-99556C4F3BC6]
+[EL Fine]: sql: 2015-12-21 07:35:38.249--ClientSession(707203248)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE ((activeStatus = ?) AND (languageId = ?))
+	bind =&gt; [1, 15110D55-A811-45C6-81FB-7D2DC72F422A]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:00.876--ClientSession(694411746)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE (languageId = ?)
-	bind =&gt; [2EF668A9-1FDB-4A74-94DA-99556C4F3BC6]
-[EL Fine]: sql: 2015-12-21 07:19:00.877--ClientSession(694411746)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Language_M WHERE ((languageId = ?) AND (versionId = ?))
-	bind =&gt; [2EF668A9-1FDB-4A74-94DA-99556C4F3BC6, 2]
+[EL Fine]: sql: 2015-12-21 07:35:38.254--ClientSession(1602257039)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT languageId, alpha2, alpha3, alpha4, alpha4parentid, language, languageDescription, languageIcon, languageType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Language_M WHERE (languageId = ?)
+	bind =&gt; [15110D55-A811-45C6-81FB-7D2DC72F422A]
+[EL Fine]: sql: 2015-12-21 07:35:38.256--ClientSession(1602257039)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Language_M WHERE ((languageId = ?) AND (versionId = ?))
+	bind =&gt; [15110D55-A811-45C6-81FB-7D2DC72F422A, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

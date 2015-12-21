@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.114s</div>
+<div class="counter">0.104s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.083s</td>
+<td>0.073s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.010s</td>
+<td>0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -99,7 +99,7 @@
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.013s</td>
+<td>0.014s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -108,37 +108,37 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.638--ClientSession(2096703645)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationGroup_M (commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [F2055DC2-C082-4281-9AA4-BCE0786EE52D, neXnC3Mjt8MjYBSR8zDLs5LS2eMdJY5Zv0RpItHmdv0qZc7k4i, CTkHLsD8EzxI1mhwTt0W9Rhu7pP2k95M8s6onTgxMV7zWG7wmN, 1, AAAAA, 2015-12-21 12:49:02.607, null, 2015-12-21 12:49:02.607, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:39.904--ClientSession(254147373)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationGroup_M (commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [8A38B45F-3C20-48C4-A64A-049C33059D50, neXnC3Mjt8MjYBSR8zDLs5LS2eMdJY5Zv0RpItHmdv0qZc7k4i, CTkHLsD8EzxI1mhwTt0W9Rhu7pP2k95M8s6onTgxMV7zWG7wmN, 1, AAAAA, 2015-12-21 13:05:39.882, null, 2015-12-21 13:05:39.882, 1, null]
 Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.67--ClientSession(43756794)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationType_M (commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [5FE0570F-7388-45DC-8EF9-48D9264B24ED, F2055DC2-C082-4281-9AA4-BCE0786EE52D, vwfHCnHFL3J7ab2UyRR8vsnT51kJFT97HcfyVAAA5pMxWJ1nMe, 9yqnOofcrmkS5VU99vCbTkTYzw5QVzn9tQsD8kutV2rZL3s2dZ, 1, AAAAA, 2015-12-21 12:49:02.641, null, 2015-12-21 12:49:02.641, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:39.934--ClientSession(1056157135)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationType_M (commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [663362D8-B7FA-4B06-9132-47A56BD1E846, 8A38B45F-3C20-48C4-A64A-049C33059D50, vwfHCnHFL3J7ab2UyRR8vsnT51kJFT97HcfyVAAA5pMxWJ1nMe, 9yqnOofcrmkS5VU99vCbTkTYzw5QVzn9tQsD8kutV2rZL3s2dZ, 1, AAAAA, 2015-12-21 13:05:39.908, null, 2015-12-21 13:05:39.908, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.677--ClientSession(2036275817)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
-	bind =&gt; [1, 5FE0570F-7388-45DC-8EF9-48D9264B24ED]
+[EL Fine]: sql: 2015-12-21 07:35:39.942--ClientSession(630204797)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
+	bind =&gt; [1, 663362D8-B7FA-4B06-9132-47A56BD1E846]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.68--ClientSession(1242204181)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
-	bind =&gt; [5FE0570F-7388-45DC-8EF9-48D9264B24ED]
-[EL Fine]: sql: 2015-12-21 07:19:02.681--ClientSession(1242204181)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_CommunicationType_M SET commTypeDescription = ?, commTypeName = ?, updatedBy = ?, versionId = ? WHERE ((commType = ?) AND (versionId = ?))
-	bind =&gt; [LTmZAVsOEklG8j8qod8NsUsaSFcLj1cxF7aNpGLu9ZEV3cFzAd, ADS1YDH9jeEUnODqykcfI1dvP4iS2L3o5VWB3LI7uwCLSblMNr, AAAAA, 2, 5FE0570F-7388-45DC-8EF9-48D9264B24ED, 1]
+[EL Fine]: sql: 2015-12-21 07:35:39.944--ClientSession(1847959273)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
+	bind =&gt; [663362D8-B7FA-4B06-9132-47A56BD1E846]
+[EL Fine]: sql: 2015-12-21 07:35:39.945--ClientSession(1847959273)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_CommunicationType_M SET commTypeDescription = ?, commTypeName = ?, updatedBy = ?, versionId = ? WHERE ((commType = ?) AND (versionId = ?))
+	bind =&gt; [LTmZAVsOEklG8j8qod8NsUsaSFcLj1cxF7aNpGLu9ZEV3cFzAd, ADS1YDH9jeEUnODqykcfI1dvP4iS2L3o5VWB3LI7uwCLSblMNr, AAAAA, 2, 663362D8-B7FA-4B06-9132-47A56BD1E846, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.686--ClientSession(920339012)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
-	bind =&gt; [1, 5FE0570F-7388-45DC-8EF9-48D9264B24ED]
+[EL Fine]: sql: 2015-12-21 07:35:39.951--ClientSession(484982291)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
+	bind =&gt; [1, 663362D8-B7FA-4B06-9132-47A56BD1E846]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.691--ClientSession(1241097401)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commGroupId = ?))
-	bind =&gt; [1, F2055DC2-C082-4281-9AA4-BCE0786EE52D]
+[EL Fine]: sql: 2015-12-21 07:35:39.956--ClientSession(1284611392)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commGroupId = ?))
+	bind =&gt; [1, 8A38B45F-3C20-48C4-A64A-049C33059D50]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.695--ClientSession(818453935)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
-	bind =&gt; [5FE0570F-7388-45DC-8EF9-48D9264B24ED]
-[EL Fine]: sql: 2015-12-21 07:19:02.696--ClientSession(818453935)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationType_M WHERE ((commType = ?) AND (versionId = ?))
-	bind =&gt; [5FE0570F-7388-45DC-8EF9-48D9264B24ED, 2]
+[EL Fine]: sql: 2015-12-21 07:35:39.96--ClientSession(2089861661)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
+	bind =&gt; [663362D8-B7FA-4B06-9132-47A56BD1E846]
+[EL Fine]: sql: 2015-12-21 07:35:39.961--ClientSession(2089861661)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationType_M WHERE ((commType = ?) AND (versionId = ?))
+	bind =&gt; [663362D8-B7FA-4B06-9132-47A56BD1E846, 2]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.701--ClientSession(1711278945)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationGroup_M WHERE (commGroupId = ?)
-	bind =&gt; [F2055DC2-C082-4281-9AA4-BCE0786EE52D]
-[EL Fine]: sql: 2015-12-21 07:19:02.703--ClientSession(1711278945)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationGroup_M WHERE ((commGroupId = ?) AND (versionId = ?))
-	bind =&gt; [F2055DC2-C082-4281-9AA4-BCE0786EE52D, 1]
+[EL Fine]: sql: 2015-12-21 07:35:39.968--ClientSession(476560701)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationGroup_M WHERE (commGroupId = ?)
+	bind =&gt; [8A38B45F-3C20-48C4-A64A-049C33059D50]
+[EL Fine]: sql: 2015-12-21 07:35:39.969--ClientSession(476560701)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationGroup_M WHERE ((commGroupId = ?) AND (versionId = ?))
+	bind =&gt; [8A38B45F-3C20-48C4-A64A-049C33059D50, 1]
 </pre>
 </span>
 </div>
@@ -150,7 +150,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

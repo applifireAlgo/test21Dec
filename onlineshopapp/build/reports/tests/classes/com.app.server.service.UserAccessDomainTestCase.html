@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.016s</td>
+<td>0.017s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.007s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.16--ClientSession(997879018)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessDomain_M (userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [12FAB55E-6B99-4B9F-A7CF-1A1A1EDA3BCB, vRmSARFcPr8Aqsxpdz40UNSL3JiAqRxyfw3DmAZv6FFY7o5Kb4, 9JF8qDKuGAP4Vjz0QvShR9uMlvAprZuI2vCsgSlj33XVd6RR5X, HSgqG57LugHYSIeXVlgnjF7vAHbX5aQGdDhPK0nIy7bJj16bUl, 2XARohT69ejebOh84VrxOfB80MwpUVavl919hE2HfmYyQEV4jw, 37444, 1, AAAAA, 2015-12-21 12:49:03.154, null, 2015-12-21 12:49:03.154, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:40.44--ClientSession(946316475)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessDomain_M (userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [25FC8DA6-9857-4CD7-B1B5-27CF2EA65801, vRmSARFcPr8Aqsxpdz40UNSL3JiAqRxyfw3DmAZv6FFY7o5Kb4, 9JF8qDKuGAP4Vjz0QvShR9uMlvAprZuI2vCsgSlj33XVd6RR5X, HSgqG57LugHYSIeXVlgnjF7vAHbX5aQGdDhPK0nIy7bJj16bUl, 2XARohT69ejebOh84VrxOfB80MwpUVavl919hE2HfmYyQEV4jw, 47380, 1, AAAAA, 2015-12-21 13:05:40.434, null, 2015-12-21 13:05:40.434, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.166--ClientSession(1066785996)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE ((activeStatus = ?) AND (userAccessDomainId = ?))
-	bind =&gt; [1, 12FAB55E-6B99-4B9F-A7CF-1A1A1EDA3BCB]
+[EL Fine]: sql: 2015-12-21 07:35:40.446--ClientSession(943232035)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE ((activeStatus = ?) AND (userAccessDomainId = ?))
+	bind =&gt; [1, 25FC8DA6-9857-4CD7-B1B5-27CF2EA65801]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.168--ClientSession(2040882887)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE (userAccessDomainId = ?)
-	bind =&gt; [12FAB55E-6B99-4B9F-A7CF-1A1A1EDA3BCB]
-[EL Fine]: sql: 2015-12-21 07:19:03.169--ClientSession(2040882887)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserAccessDomain_M SET domainDescription = ?, domainHelp = ?, domainIcon = ?, domainName = ?, userAccessDomain = ?, updatedBy = ?, versionId = ? WHERE ((userAccessDomainId = ?) AND (versionId = ?))
-	bind =&gt; [GhFfU1c2JXX4MrjzUCVW2eB5ody5sX0k7s4nWvbwPIxBoXq3jT, 4UjivU67sy0z6J5VJ885u4EV1hQz2lAYat6KL1IHFJIsq5BQBU, 5fBpZTkNbfbedmNhbWpubIBpZoMJJUbbM16CAQINunvAulFZ7q, 4Pp3ICGQKHRYrgh93Q7pzSa7hd5uU8N3rA0LCZayCYuAAlrlAv, 82709, AAAAA, 2, 12FAB55E-6B99-4B9F-A7CF-1A1A1EDA3BCB, 1]
+[EL Fine]: sql: 2015-12-21 07:35:40.448--ClientSession(726515361)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE (userAccessDomainId = ?)
+	bind =&gt; [25FC8DA6-9857-4CD7-B1B5-27CF2EA65801]
+[EL Fine]: sql: 2015-12-21 07:35:40.45--ClientSession(726515361)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserAccessDomain_M SET domainDescription = ?, domainHelp = ?, domainIcon = ?, domainName = ?, userAccessDomain = ?, updatedBy = ?, versionId = ? WHERE ((userAccessDomainId = ?) AND (versionId = ?))
+	bind =&gt; [GhFfU1c2JXX4MrjzUCVW2eB5ody5sX0k7s4nWvbwPIxBoXq3jT, 4UjivU67sy0z6J5VJ885u4EV1hQz2lAYat6KL1IHFJIsq5BQBU, 5fBpZTkNbfbedmNhbWpubIBpZoMJJUbbM16CAQINunvAulFZ7q, 4Pp3ICGQKHRYrgh93Q7pzSa7hd5uU8N3rA0LCZayCYuAAlrlAv, 82709, AAAAA, 2, 25FC8DA6-9857-4CD7-B1B5-27CF2EA65801, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.175--ClientSession(1757338988)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE ((activeStatus = ?) AND (userAccessDomainId = ?))
-	bind =&gt; [1, 12FAB55E-6B99-4B9F-A7CF-1A1A1EDA3BCB]
+[EL Fine]: sql: 2015-12-21 07:35:40.455--ClientSession(392271014)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE ((activeStatus = ?) AND (userAccessDomainId = ?))
+	bind =&gt; [1, 25FC8DA6-9857-4CD7-B1B5-27CF2EA65801]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:03.179--ClientSession(859367496)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE (userAccessDomainId = ?)
-	bind =&gt; [12FAB55E-6B99-4B9F-A7CF-1A1A1EDA3BCB]
-[EL Fine]: sql: 2015-12-21 07:19:03.18--ClientSession(859367496)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessDomain_M WHERE ((userAccessDomainId = ?) AND (versionId = ?))
-	bind =&gt; [12FAB55E-6B99-4B9F-A7CF-1A1A1EDA3BCB, 2]
+[EL Fine]: sql: 2015-12-21 07:35:40.459--ClientSession(1972160042)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessDomain_M WHERE (userAccessDomainId = ?)
+	bind =&gt; [25FC8DA6-9857-4CD7-B1B5-27CF2EA65801]
+[EL Fine]: sql: 2015-12-21 07:35:40.46--ClientSession(1972160042)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessDomain_M WHERE ((userAccessDomainId = ?) AND (versionId = ?))
+	bind =&gt; [25FC8DA6-9857-4CD7-B1B5-27CF2EA65801, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

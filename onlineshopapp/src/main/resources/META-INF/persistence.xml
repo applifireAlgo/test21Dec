@@ -76,6 +76,7 @@
     <class>com.app.shared.retail.Product</class>
     <class>com.app.shared.portal.UserCart</class>
     <class>com.app.shared.portal.UserCart</class>
+    <class>com.app.shared.location.TestEntity</class>
     </persistence-unit>
 
 </persistence>

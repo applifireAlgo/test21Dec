@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.server.service.TitleTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-12-21T07:19:02" hostname="3b44d96da3d9" time="0.084">
+<testsuite name="com.app.server.service.TitleTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-12-21T07:35:39" hostname="e39261aec3e6" time="0.058">
   <properties/>
-  <testcase name="test1Save" classname="com.app.server.service.TitleTestCase" time="0.052"/>
-  <testcase name="test2Update" classname="com.app.server.service.TitleTestCase" time="0.014"/>
-  <testcase name="test3FindById" classname="com.app.server.service.TitleTestCase" time="0.007"/>
-  <testcase name="test4Delete" classname="com.app.server.service.TitleTestCase" time="0.011"/>
+  <testcase name="test1Save" classname="com.app.server.service.TitleTestCase" time="0.036"/>
+  <testcase name="test2Update" classname="com.app.server.service.TitleTestCase" time="0.01"/>
+  <testcase name="test3FindById" classname="com.app.server.service.TitleTestCase" time="0.004"/>
+  <testcase name="test4Delete" classname="com.app.server.service.TitleTestCase" time="0.008"/>
   <system-out><![CDATA[Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.068--ClientSession(300804209)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Title_M (titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7, Tx5sUeKi0iexH6tEgmxHwsxb8t3HfhO9yrhIvh1j4EKUt14QQI, 1, AAAAA, 2015-12-21 12:49:02.03, null, 2015-12-21 12:49:02.03, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:39.351--ClientSession(188738441)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Title_M (titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [9F772A5C-280E-4F30-8F64-5174231251A2, Tx5sUeKi0iexH6tEgmxHwsxb8t3HfhO9yrhIvh1j4EKUt14QQI, 1, AAAAA, 2015-12-21 13:05:39.327, null, 2015-12-21 13:05:39.327, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.078--ClientSession(1748006399)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
-	bind => [1, DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
+[EL Fine]: sql: 2015-12-21 07:35:39.357--ClientSession(1425971368)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
+	bind => [1, 9F772A5C-280E-4F30-8F64-5174231251A2]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.081--ClientSession(341090653)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
-	bind => [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
-[EL Fine]: sql: 2015-12-21 07:19:02.083--ClientSession(341090653)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_Title_M SET titles = ?, updatedBy = ?, versionId = ? WHERE ((titleId = ?) AND (versionId = ?))
-	bind => [ePoO8m3U9DClMgLxv68OrydiTLjD5dW68i3DiGKD0qYOY3XkhW, AAAAA, 2, DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7, 1]
+[EL Fine]: sql: 2015-12-21 07:35:39.36--ClientSession(1846746496)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
+	bind => [9F772A5C-280E-4F30-8F64-5174231251A2]
+[EL Fine]: sql: 2015-12-21 07:35:39.361--ClientSession(1846746496)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_Title_M SET titles = ?, updatedBy = ?, versionId = ? WHERE ((titleId = ?) AND (versionId = ?))
+	bind => [ePoO8m3U9DClMgLxv68OrydiTLjD5dW68i3DiGKD0qYOY3XkhW, AAAAA, 2, 9F772A5C-280E-4F30-8F64-5174231251A2, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.091--ClientSession(1474047902)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
-	bind => [1, DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
+[EL Fine]: sql: 2015-12-21 07:35:39.367--ClientSession(1166431317)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
+	bind => [1, 9F772A5C-280E-4F30-8F64-5174231251A2]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.098--ClientSession(153837709)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
-	bind => [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
-[EL Fine]: sql: 2015-12-21 07:19:02.1--ClientSession(153837709)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Title_M WHERE ((titleId = ?) AND (versionId = ?))
-	bind => [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7, 2]
+[EL Fine]: sql: 2015-12-21 07:35:39.371--ClientSession(101377023)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
+	bind => [9F772A5C-280E-4F30-8F64-5174231251A2]
+[EL Fine]: sql: 2015-12-21 07:35:39.372--ClientSession(101377023)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Title_M WHERE ((titleId = ?) AND (versionId = ?))
+	bind => [9F772A5C-280E-4F30-8F64-5174231251A2, 2]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

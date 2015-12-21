@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.084s</div>
+<div class="counter">0.058s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.052s</td>
+<td>0.036s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.014s</td>
+<td>0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test3FindById</td>
-<td>0.007s</td>
+<td>0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.011s</td>
+<td>0.008s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.068--ClientSession(300804209)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Title_M (titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7, Tx5sUeKi0iexH6tEgmxHwsxb8t3HfhO9yrhIvh1j4EKUt14QQI, 1, AAAAA, 2015-12-21 12:49:02.03, null, 2015-12-21 12:49:02.03, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:39.351--ClientSession(188738441)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Title_M (titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [9F772A5C-280E-4F30-8F64-5174231251A2, Tx5sUeKi0iexH6tEgmxHwsxb8t3HfhO9yrhIvh1j4EKUt14QQI, 1, AAAAA, 2015-12-21 13:05:39.327, null, 2015-12-21 13:05:39.327, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.078--ClientSession(1748006399)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
-	bind =&gt; [1, DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
+[EL Fine]: sql: 2015-12-21 07:35:39.357--ClientSession(1425971368)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
+	bind =&gt; [1, 9F772A5C-280E-4F30-8F64-5174231251A2]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.081--ClientSession(341090653)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
-	bind =&gt; [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
-[EL Fine]: sql: 2015-12-21 07:19:02.083--ClientSession(341090653)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_Title_M SET titles = ?, updatedBy = ?, versionId = ? WHERE ((titleId = ?) AND (versionId = ?))
-	bind =&gt; [ePoO8m3U9DClMgLxv68OrydiTLjD5dW68i3DiGKD0qYOY3XkhW, AAAAA, 2, DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7, 1]
+[EL Fine]: sql: 2015-12-21 07:35:39.36--ClientSession(1846746496)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
+	bind =&gt; [9F772A5C-280E-4F30-8F64-5174231251A2]
+[EL Fine]: sql: 2015-12-21 07:35:39.361--ClientSession(1846746496)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_Title_M SET titles = ?, updatedBy = ?, versionId = ? WHERE ((titleId = ?) AND (versionId = ?))
+	bind =&gt; [ePoO8m3U9DClMgLxv68OrydiTLjD5dW68i3DiGKD0qYOY3XkhW, AAAAA, 2, 9F772A5C-280E-4F30-8F64-5174231251A2, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.091--ClientSession(1474047902)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
-	bind =&gt; [1, DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
+[EL Fine]: sql: 2015-12-21 07:35:39.367--ClientSession(1166431317)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE ((activeStatus = ?) AND (titleId = ?))
+	bind =&gt; [1, 9F772A5C-280E-4F30-8F64-5174231251A2]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.098--ClientSession(153837709)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
-	bind =&gt; [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7]
-[EL Fine]: sql: 2015-12-21 07:19:02.1--ClientSession(153837709)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Title_M WHERE ((titleId = ?) AND (versionId = ?))
-	bind =&gt; [DD78FA7A-2C7C-4C56-B1E2-00C6FCBD11D7, 2]
+[EL Fine]: sql: 2015-12-21 07:35:39.371--ClientSession(101377023)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT titleId, titles, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Title_M WHERE (titleId = ?)
+	bind =&gt; [9F772A5C-280E-4F30-8F64-5174231251A2]
+[EL Fine]: sql: 2015-12-21 07:35:39.372--ClientSession(101377023)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Title_M WHERE ((titleId = ?) AND (versionId = ?))
+	bind =&gt; [9F772A5C-280E-4F30-8F64-5174231251A2, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

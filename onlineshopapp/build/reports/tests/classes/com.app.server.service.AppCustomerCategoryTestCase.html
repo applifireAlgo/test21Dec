@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.067s</div>
+<div class="counter">0.058s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.044s</td>
+<td>0.039s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.011s</td>
+<td>0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.008s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.991--ClientSession(23041368)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppCustomerCategory_M (appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [142D9947-FB73-48F3-B0AE-34A47C66DB95, Gqsb2i5GH4W5Hq24z7UbPqTFhoBLdFWFm1XkjwUAjMdVMbzbUN, 1, AAAAA, 2015-12-21 12:49:01.962, null, 2015-12-21 12:49:01.962, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:39.291--ClientSession(1543550310)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppCustomerCategory_M (appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [5D027E2D-DDA2-4899-AC1D-40F1F864419F, Gqsb2i5GH4W5Hq24z7UbPqTFhoBLdFWFm1XkjwUAjMdVMbzbUN, 1, AAAAA, 2015-12-21 13:05:39.265, null, 2015-12-21 13:05:39.265, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.999--ClientSession(1592195000)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE ((activeStatus = ?) AND (appcustCategoryId = ?))
-	bind =&gt; [1, 142D9947-FB73-48F3-B0AE-34A47C66DB95]
+[EL Fine]: sql: 2015-12-21 07:35:39.298--ClientSession(1530413551)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE ((activeStatus = ?) AND (appcustCategoryId = ?))
+	bind =&gt; [1, 5D027E2D-DDA2-4899-AC1D-40F1F864419F]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.001--ClientSession(20868844)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE (appcustCategoryId = ?)
-	bind =&gt; [142D9947-FB73-48F3-B0AE-34A47C66DB95]
-[EL Fine]: sql: 2015-12-21 07:19:02.003--ClientSession(20868844)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_AppCustomerCategory_M SET customerCategory = ?, updatedBy = ?, versionId = ? WHERE ((appcustCategoryId = ?) AND (versionId = ?))
-	bind =&gt; [fmOy8mZLzNVuHBJ2rpTbHkafHtd0cKDxyjFtNdpT26LN6rWySF, AAAAA, 2, 142D9947-FB73-48F3-B0AE-34A47C66DB95, 1]
+[EL Fine]: sql: 2015-12-21 07:35:39.3--ClientSession(1569290567)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE (appcustCategoryId = ?)
+	bind =&gt; [5D027E2D-DDA2-4899-AC1D-40F1F864419F]
+[EL Fine]: sql: 2015-12-21 07:35:39.302--ClientSession(1569290567)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_AppCustomerCategory_M SET customerCategory = ?, updatedBy = ?, versionId = ? WHERE ((appcustCategoryId = ?) AND (versionId = ?))
+	bind =&gt; [fmOy8mZLzNVuHBJ2rpTbHkafHtd0cKDxyjFtNdpT26LN6rWySF, AAAAA, 2, 5D027E2D-DDA2-4899-AC1D-40F1F864419F, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.009--ClientSession(864925633)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE ((activeStatus = ?) AND (appcustCategoryId = ?))
-	bind =&gt; [1, 142D9947-FB73-48F3-B0AE-34A47C66DB95]
+[EL Fine]: sql: 2015-12-21 07:35:39.307--ClientSession(2082679019)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE ((activeStatus = ?) AND (appcustCategoryId = ?))
+	bind =&gt; [1, 5D027E2D-DDA2-4899-AC1D-40F1F864419F]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:02.014--ClientSession(2120214567)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE (appcustCategoryId = ?)
-	bind =&gt; [142D9947-FB73-48F3-B0AE-34A47C66DB95]
-[EL Fine]: sql: 2015-12-21 07:19:02.015--ClientSession(2120214567)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppCustomerCategory_M WHERE ((appcustCategoryId = ?) AND (versionId = ?))
-	bind =&gt; [142D9947-FB73-48F3-B0AE-34A47C66DB95, 2]
+[EL Fine]: sql: 2015-12-21 07:35:39.312--ClientSession(1856063471)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustCategoryId, customerCategory, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerCategory_M WHERE (appcustCategoryId = ?)
+	bind =&gt; [5D027E2D-DDA2-4899-AC1D-40F1F864419F]
+[EL Fine]: sql: 2015-12-21 07:35:39.313--ClientSession(1856063471)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppCustomerCategory_M WHERE ((appcustCategoryId = ?) AND (versionId = ?))
+	bind =&gt; [5D027E2D-DDA2-4899-AC1D-40F1F864419F, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

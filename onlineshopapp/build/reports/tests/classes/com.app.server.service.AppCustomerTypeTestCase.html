@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.067s</div>
+<div class="counter">0.062s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.044s</td>
+<td>0.040s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.010s</td>
+<td>0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test3FindById</td>
-<td>0.005s</td>
+<td>0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.008s</td>
+<td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.356--ClientSession(1221126215)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppCustomerType_M (appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [4B1712AF-E768-4665-B0D8-D91D305880E7, atosvyQGoKnMn3okjNTKDrQXkpODE3rdwu9oJzZd9lRvsj8ULD, 1, 2147483647, 1, AAAAA, 2015-12-21 12:49:01.327, null, 2015-12-21 12:49:01.327, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:38.725--ClientSession(1054267697)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppCustomerType_M (appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [6DF1B412-EBD7-441A-8A61-2730AE44233D, atosvyQGoKnMn3okjNTKDrQXkpODE3rdwu9oJzZd9lRvsj8ULD, 1, 2147483647, 1, AAAAA, 2015-12-21 13:05:38.697, null, 2015-12-21 13:05:38.697, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.363--ClientSession(2126832703)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE ((activeStatus = ?) AND (appcustTypeId = ?))
-	bind =&gt; [1, 4B1712AF-E768-4665-B0D8-D91D305880E7]
+[EL Fine]: sql: 2015-12-21 07:35:38.732--ClientSession(102872110)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE ((activeStatus = ?) AND (appcustTypeId = ?))
+	bind =&gt; [1, 6DF1B412-EBD7-441A-8A61-2730AE44233D]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.366--ClientSession(1650442270)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE (appcustTypeId = ?)
-	bind =&gt; [4B1712AF-E768-4665-B0D8-D91D305880E7]
-[EL Fine]: sql: 2015-12-21 07:19:01.367--ClientSession(1650442270)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_AppCustomerType_M SET customerType = ?, defaults = ?, updatedBy = ?, versionId = ? WHERE ((appcustTypeId = ?) AND (versionId = ?))
-	bind =&gt; [5BWsbqVlgVlqJLNVFhR6NXA3oyHH0YRiKcHSC5tdlwUEgV5BAn, 0, AAAAA, 2, 4B1712AF-E768-4665-B0D8-D91D305880E7, 1]
+[EL Fine]: sql: 2015-12-21 07:35:38.734--ClientSession(431816553)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE (appcustTypeId = ?)
+	bind =&gt; [6DF1B412-EBD7-441A-8A61-2730AE44233D]
+[EL Fine]: sql: 2015-12-21 07:35:38.735--ClientSession(431816553)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_AppCustomerType_M SET customerType = ?, defaults = ?, updatedBy = ?, versionId = ? WHERE ((appcustTypeId = ?) AND (versionId = ?))
+	bind =&gt; [5BWsbqVlgVlqJLNVFhR6NXA3oyHH0YRiKcHSC5tdlwUEgV5BAn, 0, AAAAA, 2, 6DF1B412-EBD7-441A-8A61-2730AE44233D, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.374--ClientSession(2116207588)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE ((activeStatus = ?) AND (appcustTypeId = ?))
-	bind =&gt; [1, 4B1712AF-E768-4665-B0D8-D91D305880E7]
+[EL Fine]: sql: 2015-12-21 07:35:38.742--ClientSession(1450046592)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE ((activeStatus = ?) AND (appcustTypeId = ?))
+	bind =&gt; [1, 6DF1B412-EBD7-441A-8A61-2730AE44233D]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.378--ClientSession(1735240306)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE (appcustTypeId = ?)
-	bind =&gt; [4B1712AF-E768-4665-B0D8-D91D305880E7]
-[EL Fine]: sql: 2015-12-21 07:19:01.379--ClientSession(1735240306)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppCustomerType_M WHERE ((appcustTypeId = ?) AND (versionId = ?))
-	bind =&gt; [4B1712AF-E768-4665-B0D8-D91D305880E7, 2]
+[EL Fine]: sql: 2015-12-21 07:35:38.746--ClientSession(430218468)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE (appcustTypeId = ?)
+	bind =&gt; [6DF1B412-EBD7-441A-8A61-2730AE44233D]
+[EL Fine]: sql: 2015-12-21 07:35:38.747--ClientSession(430218468)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppCustomerType_M WHERE ((appcustTypeId = ?) AND (versionId = ?))
+	bind =&gt; [6DF1B412-EBD7-441A-8A61-2730AE44233D, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

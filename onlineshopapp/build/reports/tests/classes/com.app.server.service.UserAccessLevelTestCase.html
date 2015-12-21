@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.068s</div>
+<div class="counter">0.069s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,17 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.044s</td>
+<td>0.045s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.010s</td>
+<td>0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test3FindById</td>
-<td>0.005s</td>
+<td>0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.286--ClientSession(1806098610)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [872C9016-353E-49D1-B2CC-8A73B1C0E74E, OFBQgzmAWVPFN96qiCMXVGXTvKXugMmuuKHFcTvJVsPmDoRkki, QT36GiygfDdDGlkE20qIq5JaS9ZLZX594i5QsbhRRYzyqYAPAH, tIjOOWn2bH5apdOLbUqYKzg6Hpg3JgU56seeOtqOSwMGrHVwE8, W5Qor3aBZXHItVwDirbY822Sw71NZ4Yi8qDyWmVyFcVz0P6g2N, 82216, 1, AAAAA, 2015-12-21 12:49:01.256, null, 2015-12-21 12:49:01.256, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:38.659--ClientSession(1480843301)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [3CE4AD45-46AA-4247-BAC8-CFE2865BAE32, OFBQgzmAWVPFN96qiCMXVGXTvKXugMmuuKHFcTvJVsPmDoRkki, QT36GiygfDdDGlkE20qIq5JaS9ZLZX594i5QsbhRRYzyqYAPAH, tIjOOWn2bH5apdOLbUqYKzg6Hpg3JgU56seeOtqOSwMGrHVwE8, W5Qor3aBZXHItVwDirbY822Sw71NZ4Yi8qDyWmVyFcVz0P6g2N, 36806, 1, AAAAA, 2015-12-21 13:05:38.629, null, 2015-12-21 13:05:38.629, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.294--ClientSession(892224789)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
-	bind =&gt; [1, 872C9016-353E-49D1-B2CC-8A73B1C0E74E]
+[EL Fine]: sql: 2015-12-21 07:35:38.666--ClientSession(1032141300)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
+	bind =&gt; [1, 3CE4AD45-46AA-4247-BAC8-CFE2865BAE32]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.296--ClientSession(101353731)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
-	bind =&gt; [872C9016-353E-49D1-B2CC-8A73B1C0E74E]
-[EL Fine]: sql: 2015-12-21 07:19:01.297--ClientSession(101353731)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserAccessLevel_M SET levelDescription = ?, levelHelp = ?, levelIcon = ?, levelName = ?, userAccessLevel = ?, updatedBy = ?, versionId = ? WHERE ((userAccessLevelId = ?) AND (versionId = ?))
-	bind =&gt; [rrIhcbqjnZGeWg7Kzkrk5092oqvMnKqAEz4HmRG0nStFZYcVEX, ZZXLQ9c0qvDn7Q2mWedCgQ3rThWbL3uxv0H0bMEkQrrIxwx8zV, 4QHe44szQfOXziTcIj7RzlMp3B0vB9MpMatrSKRu6mX7yyOXMe, h2N8ZFSCp7mf5Rk0dreMRsZ6bQrwrK2LfOOYR1qQCsG3gEVAIi, 58084, AAAAA, 2, 872C9016-353E-49D1-B2CC-8A73B1C0E74E, 1]
+[EL Fine]: sql: 2015-12-21 07:35:38.668--ClientSession(1062965333)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
+	bind =&gt; [3CE4AD45-46AA-4247-BAC8-CFE2865BAE32]
+[EL Fine]: sql: 2015-12-21 07:35:38.67--ClientSession(1062965333)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserAccessLevel_M SET levelDescription = ?, levelHelp = ?, levelIcon = ?, levelName = ?, userAccessLevel = ?, updatedBy = ?, versionId = ? WHERE ((userAccessLevelId = ?) AND (versionId = ?))
+	bind =&gt; [rrIhcbqjnZGeWg7Kzkrk5092oqvMnKqAEz4HmRG0nStFZYcVEX, ZZXLQ9c0qvDn7Q2mWedCgQ3rThWbL3uxv0H0bMEkQrrIxwx8zV, 4QHe44szQfOXziTcIj7RzlMp3B0vB9MpMatrSKRu6mX7yyOXMe, h2N8ZFSCp7mf5Rk0dreMRsZ6bQrwrK2LfOOYR1qQCsG3gEVAIi, 58084, AAAAA, 2, 3CE4AD45-46AA-4247-BAC8-CFE2865BAE32, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.304--ClientSession(1562941958)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
-	bind =&gt; [1, 872C9016-353E-49D1-B2CC-8A73B1C0E74E]
+[EL Fine]: sql: 2015-12-21 07:35:38.676--ClientSession(1894270752)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
+	bind =&gt; [1, 3CE4AD45-46AA-4247-BAC8-CFE2865BAE32]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.308--ClientSession(178258901)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
-	bind =&gt; [872C9016-353E-49D1-B2CC-8A73B1C0E74E]
-[EL Fine]: sql: 2015-12-21 07:19:01.309--ClientSession(178258901)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessLevel_M WHERE ((userAccessLevelId = ?) AND (versionId = ?))
-	bind =&gt; [872C9016-353E-49D1-B2CC-8A73B1C0E74E, 2]
+[EL Fine]: sql: 2015-12-21 07:35:38.68--ClientSession(142186887)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
+	bind =&gt; [3CE4AD45-46AA-4247-BAC8-CFE2865BAE32]
+[EL Fine]: sql: 2015-12-21 07:35:38.681--ClientSession(142186887)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessLevel_M WHERE ((userAccessLevelId = ?) AND (versionId = ?))
+	bind =&gt; [3CE4AD45-46AA-4247-BAC8-CFE2865BAE32, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.065s</div>
+<div class="counter">0.060s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.041s</td>
+<td>0.039s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test2Update</td>
-<td>0.011s</td>
+<td>0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@
 </tr>
 <tr>
 <td class="success">test4Delete</td>
-<td>0.009s</td>
+<td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -104,25 +104,25 @@
 <span class="code">
 <pre>Setting logged in user info for ADD
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.919--ClientSession(259518330)--Connection(668592396)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Product_M (productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [BC5245B5-A465-4B4B-9217-E81E2842D9ED, Stgm6JeHALzC6W8NNBqsL8QaPh9Npx08J5s2z0rzIcza4oGg1f, 7kZKybxU6wdSxroShvS5SIN8TnSZQSeFP0kGktuXTlOQIvtd9C, 2147483647, 12.34, 1, AAAAA, 2015-12-21 12:49:01.891, null, 2015-12-21 12:49:01.891, 1, null]
+[EL Fine]: sql: 2015-12-21 07:35:39.226--ClientSession(2071945147)--Connection(248153341)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Product_M (productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [427D5821-4B07-473C-94FC-A80DD1FED92B, Stgm6JeHALzC6W8NNBqsL8QaPh9Npx08J5s2z0rzIcza4oGg1f, 7kZKybxU6wdSxroShvS5SIN8TnSZQSeFP0kGktuXTlOQIvtd9C, 2147483647, 12.34, 1, AAAAA, 2015-12-21 13:05:39.2, null, 2015-12-21 13:05:39.2, 1, null]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.926--ClientSession(922443030)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
-	bind =&gt; [1, BC5245B5-A465-4B4B-9217-E81E2842D9ED]
+[EL Fine]: sql: 2015-12-21 07:35:39.233--ClientSession(1204500470)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
+	bind =&gt; [1, 427D5821-4B07-473C-94FC-A80DD1FED92B]
 Setting logged in user info for UPDATE
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.929--ClientSession(925232873)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
-	bind =&gt; [BC5245B5-A465-4B4B-9217-E81E2842D9ED]
-[EL Fine]: sql: 2015-12-21 07:19:01.93--ClientSession(925232873)--Connection(668592396)--Thread(Thread[Test worker,5,main])--UPDATE ast_Product_M SET productDesc = ?, productName = ?, updatedBy = ?, versionId = ? WHERE ((productId = ?) AND (versionId = ?))
-	bind =&gt; [4qMwIzWyjywbZLABOFCQxUBo2iI0KVHCKlHUzhZEhxpDFc3grM, OG2wiXPyHm4aiVjCDKDo5RQU5eW533ieJJuUPW4ciiRXoByNTl, AAAAA, 2, BC5245B5-A465-4B4B-9217-E81E2842D9ED, 1]
+[EL Fine]: sql: 2015-12-21 07:35:39.235--ClientSession(1205272734)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
+	bind =&gt; [427D5821-4B07-473C-94FC-A80DD1FED92B]
+[EL Fine]: sql: 2015-12-21 07:35:39.237--ClientSession(1205272734)--Connection(248153341)--Thread(Thread[Test worker,5,main])--UPDATE ast_Product_M SET productDesc = ?, productName = ?, updatedBy = ?, versionId = ? WHERE ((productId = ?) AND (versionId = ?))
+	bind =&gt; [4qMwIzWyjywbZLABOFCQxUBo2iI0KVHCKlHUzhZEhxpDFc3grM, OG2wiXPyHm4aiVjCDKDo5RQU5eW533ieJJuUPW4ciiRXoByNTl, AAAAA, 2, 427D5821-4B07-473C-94FC-A80DD1FED92B, 1]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.936--ClientSession(217145012)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
-	bind =&gt; [1, BC5245B5-A465-4B4B-9217-E81E2842D9ED]
+[EL Fine]: sql: 2015-12-21 07:35:39.243--ClientSession(1382423997)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
+	bind =&gt; [1, 427D5821-4B07-473C-94FC-A80DD1FED92B]
 In around repository aspect
-[EL Fine]: sql: 2015-12-21 07:19:01.941--ClientSession(114146844)--Connection(668592396)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
-	bind =&gt; [BC5245B5-A465-4B4B-9217-E81E2842D9ED]
-[EL Fine]: sql: 2015-12-21 07:19:01.942--ClientSession(114146844)--Connection(668592396)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Product_M WHERE ((productId = ?) AND (versionId = ?))
-	bind =&gt; [BC5245B5-A465-4B4B-9217-E81E2842D9ED, 2]
+[EL Fine]: sql: 2015-12-21 07:35:39.247--ClientSession(303106079)--Connection(248153341)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, productName, productStock, productUnitPrice, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
+	bind =&gt; [427D5821-4B07-473C-94FC-A80DD1FED92B]
+[EL Fine]: sql: 2015-12-21 07:35:39.248--ClientSession(303106079)--Connection(248153341)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Product_M WHERE ((productId = ?) AND (versionId = ?))
+	bind =&gt; [427D5821-4B07-473C-94FC-A80DD1FED92B, 2]
 </pre>
 </span>
 </div>
@@ -134,7 +134,7 @@ In around repository aspect
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:19:03 AM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at Dec 21, 2015 7:35:41 AM</p>
 </div>
 </div>
 </body>
