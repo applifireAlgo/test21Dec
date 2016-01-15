@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class project.app.server.service.CommunicationTypeTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class project.app.server.service.CommunicationTypeTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/project.app.server.service.html">project.app.server.service</a> &gt; CommunicationTypeTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.100s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>0.068s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3findBycommGroupId</td>
+<td>0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4Delete</td>
+<td>0.014s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[EL Fine]: sql: 2016-01-15 09:44:56.778--ClientSession(1375529293)--Connection(28579503)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationGroup_M (commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [77CDFF2D-6EC1-49E0-8E12-F0CDF5886C87, PijqftPcu9aP8m8kZDatzxdkpbkVuFHqSUL8X0hHDyqyQEzhBp, xgT1nqMxJxi5sFZgRNKnIKeBmSbwqZgIelXY4jZDVfJfFcVk8n, 1, AAAAA, 2016-01-15 09:44:56.755, null, 2016-01-15 09:44:56.755, 1, null]
+Setting logged in user info for ADD
+[EL Fine]: sql: 2016-01-15 09:44:56.808--ClientSession(1405609708)--Connection(28579503)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationType_M (commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [7004728F-3BD5-49BD-B4A3-3EDB257BFC62, 77CDFF2D-6EC1-49E0-8E12-F0CDF5886C87, 0zswUhUW3GTHMu0PFBtJCcx17JlIVZfR3gfsG47quaYFmt6eTk, cTOtLvs1OUZKAHroA3gve0cztfx2R4MsWP7qgbH6kFe4k6cS3I, 1, AAAAA, 2016-01-15 09:44:56.781, null, 2016-01-15 09:44:56.781, 1, null]
+[EL Fine]: sql: 2016-01-15 09:44:56.815--ClientSession(584932817)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
+	bind =&gt; [1, 7004728F-3BD5-49BD-B4A3-3EDB257BFC62]
+Setting logged in user info for UPDATE
+[EL Fine]: sql: 2016-01-15 09:44:56.817--ClientSession(1692260171)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
+	bind =&gt; [7004728F-3BD5-49BD-B4A3-3EDB257BFC62]
+[EL Fine]: sql: 2016-01-15 09:44:56.819--ClientSession(1692260171)--Connection(28579503)--Thread(Thread[Test worker,5,main])--UPDATE ast_CommunicationType_M SET commTypeDescription = ?, commTypeName = ?, updatedBy = ?, versionId = ? WHERE ((commType = ?) AND (versionId = ?))
+	bind =&gt; [qzRY41mcL7eIdFtd0PzZYM9DMBZG0O37N8UkHYVFAWliYXdu4K, XgdnbZMEzyriEZS3IHhyagtYUudMQq3SCLKIBMdqfZgy2zC1Rf, AAAAA, 2, 7004728F-3BD5-49BD-B4A3-3EDB257BFC62, 1]
+[EL Fine]: sql: 2016-01-15 09:44:56.824--ClientSession(1525904642)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
+	bind =&gt; [1, 7004728F-3BD5-49BD-B4A3-3EDB257BFC62]
+[EL Fine]: sql: 2016-01-15 09:44:56.829--ClientSession(783427307)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commGroupId = ?))
+	bind =&gt; [1, 77CDFF2D-6EC1-49E0-8E12-F0CDF5886C87]
+[EL Fine]: sql: 2016-01-15 09:44:56.833--ClientSession(676743923)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
+	bind =&gt; [7004728F-3BD5-49BD-B4A3-3EDB257BFC62]
+[EL Fine]: sql: 2016-01-15 09:44:56.834--ClientSession(676743923)--Connection(28579503)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationType_M WHERE ((commType = ?) AND (versionId = ?))
+	bind =&gt; [7004728F-3BD5-49BD-B4A3-3EDB257BFC62, 2]
+[EL Fine]: sql: 2016-01-15 09:44:56.839--ClientSession(1581656967)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationGroup_M WHERE (commGroupId = ?)
+	bind =&gt; [77CDFF2D-6EC1-49E0-8E12-F0CDF5886C87]
+[EL Fine]: sql: 2016-01-15 09:44:56.84--ClientSession(1581656967)--Connection(28579503)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationGroup_M WHERE ((commGroupId = ?) AND (versionId = ?))
+	bind =&gt; [77CDFF2D-6EC1-49E0-8E12-F0CDF5886C87, 1]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Jan 15, 2016 9:44:58 AM</p>
+</div>
+</div>
+</body>
+</html>

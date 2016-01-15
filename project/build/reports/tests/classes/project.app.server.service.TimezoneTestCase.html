@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class project.app.server.service.TimezoneTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class project.app.server.service.TimezoneTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/project.app.server.service.html">project.app.server.service</a> &gt; TimezoneTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.035s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4Delete</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Setting logged in user info for ADD
+[EL Fine]: sql: 2016-01-15 09:44:57.82--ClientSession(1555216058)--Connection(28579503)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Timezone_M (timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [3798F0D8-03CA-46FD-B4DF-45ED9E0B4523, vCU9fzeiwek8zn8wv7D0ieJsjOgz0MDeyQ3cM4ZShcKRmd6nV0, vfBQjfmlbm8AVMoUMPQFO5xpGLR4G8SLNcnRw7xDy1d75i3uJc, NEY6UPmsMtHOyQ3EmYtxq4tq0C7v2xNsDAVw9QDdFDTSz0lxqt, 6mybbXognZXh3JC6Prxzctu4FgsezVbdSpNgvRlq3rP2FxqG5C, 9, 1, AAAAA, 2016-01-15 09:44:57.815, null, 2016-01-15 09:44:57.815, 1, null]
+[EL Fine]: sql: 2016-01-15 09:44:57.827--ClientSession(303904209)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE ((activeStatus = ?) AND (timeZoneId = ?))
+	bind =&gt; [1, 3798F0D8-03CA-46FD-B4DF-45ED9E0B4523]
+Setting logged in user info for UPDATE
+[EL Fine]: sql: 2016-01-15 09:44:57.829--ClientSession(426955246)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE (timeZoneId = ?)
+	bind =&gt; [3798F0D8-03CA-46FD-B4DF-45ED9E0B4523]
+[EL Fine]: sql: 2016-01-15 09:44:57.83--ClientSession(426955246)--Connection(28579503)--Thread(Thread[Test worker,5,main])--UPDATE ast_Timezone_M SET cities = ?, country = ?, gmtLabel = ?, timeZoneLabel = ?, utcdifference = ?, updatedBy = ?, versionId = ? WHERE ((timeZoneId = ?) AND (versionId = ?))
+	bind =&gt; [VwyC1FwRwHWIxHSGi1liHneWIOzpvheAMd4cS3YKfH9PLMU1RC, 92flmKTye9wgXXuP1lXgvU7ziTj5eCx7Y5cxoKl3Uf1GOIB2DB, oFkcfzB1ggfCfDQAOcjzJptm301s432lnM8QvVHzIgI72IKFJj, vjvwysgXHRMi3TPlrPHTznitfBVeJc33GVp2cfVIFseBtty9KH, 2, AAAAA, 2, 3798F0D8-03CA-46FD-B4DF-45ED9E0B4523, 1]
+[EL Fine]: sql: 2016-01-15 09:44:57.836--ClientSession(755188166)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE ((activeStatus = ?) AND (timeZoneId = ?))
+	bind =&gt; [1, 3798F0D8-03CA-46FD-B4DF-45ED9E0B4523]
+[EL Fine]: sql: 2016-01-15 09:44:57.84--ClientSession(1589465507)--Connection(28579503)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE (timeZoneId = ?)
+	bind =&gt; [3798F0D8-03CA-46FD-B4DF-45ED9E0B4523]
+[EL Fine]: sql: 2016-01-15 09:44:57.841--ClientSession(1589465507)--Connection(28579503)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Timezone_M WHERE ((timeZoneId = ?) AND (versionId = ?))
+	bind =&gt; [3798F0D8-03CA-46FD-B4DF-45ED9E0B4523, 2]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Jan 15, 2016 9:44:58 AM</p>
+</div>
+</div>
+</body>
+</html>
